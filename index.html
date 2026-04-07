@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Oráculo das Charadas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="criar_charada.html" class="btn-link">✨ Registrar Novo Enigma</a>
+        
+        <div class="title-wrapper">
+            <h1 class="title">Charada Mística</h1>
+       
+        </div>
+        
+        <div class="stats-card">
+            <div class="progress-container">
+               
+            </div>
+            <div class="stats-grid" style="display: flex; justify-content: space-between; gap: 10px;">
+                <div class="stat-item">
+                    <div class="stat-label">Acertos</div>
+                    <div id="total-acertos" class="stat-value">0</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Erros</div>
+                    <div id="total-erros" class="stat-value" style="color: #f87171;">0</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Total</div>
+                    <div id="total-tentativas" class="stat-value" style="color: #94a3b8;">0</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card-3d">
+            <div id="card-inner" class="card-inner">
+                <div class="card-front">
+                    <span style="font-size: 0.8rem; opacity: 0.6;">CHARADA</span>
+                    <p id="pergunta" class="card-question">Invocando charada...</p>
+                    <p style="font-size: 0.7rem; margin-top: 20px;">(Clique para revelar)</p>
+                </div>
+                <div class="card-back">
+                    <span style="font-size: 0.8rem; opacity: 0.6;">RESPOSTA</span>
+                    <p id="resposta" class="card-answer"></p>
+                </div>
+            </div>
+        </div>
+        
+        <button id="btn-nova" class="btn btn-primary">🎲 Nova charada</button>
+        <div style="display: flex; gap: 10px;">
+            <button id="btn-acertou" class="btn btn-success">Acertei</button>
+            <button id="btn-errou" class="btn btn-danger">Errei</button>
+        </div>
+        
+        <button id="btn-resetar" style="background:none; border:none; color: #6b7280; width:100%; margin-top: 20px; cursor:pointer;">Limpar Histórico</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
