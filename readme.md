@@ -37,7 +37,8 @@ O Oráculo das Charadas é um sistema interativo de adivinhação que desafia os
 
 ## Autores
 - **Nicolly Oliveira** 
- GitHub - NicollyOliveiraS
+
+E-mail: nicolly.oliveira.senai@gmail.com
  
  Link da Vercel: https://charadas-mu.vercel.app/
 ## Licença
