@@ -35,7 +35,7 @@ O Oráculo das Charadas é um sistema interativo de adivinhação que desafia os
   - Card 3D com efeito flip
   - Layout responsivo para mobile
 
-## Autores
+## Autora
 - **Nicolly Oliveira** 
 
 E-mail: nicolly.oliveira.senai@gmail.com
